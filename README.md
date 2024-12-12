@@ -49,3 +49,13 @@ Week 3 (2024.11.18-2024.11.25): System Integration
 Week 4 (2024.11.25-2024.12.02):  Testing, Evaluation, and Final Adjustments
 
 Week 5 (2024.12.02-2024.12.09): Final demonstration and submit the report.
+
+## How to work:
+1) Find dataset:
+Find a dataset of relevant photos of left and right eye open and closed eyes
+2) Training:
+Train models using the provided scripts (mobilenet.py, resnet18.py, EfficientNet-B0.py).
+Adjust parameters (e.g., epochs, learning rate) in the scripts as needed.
+3) Deployment:
+Use mobilenet_model.py, resnet18_model.py, or efficientnet_model.py to run real-time detection.
+Connect a webcam and ensure it is recognized by the system.
